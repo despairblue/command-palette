@@ -41,6 +41,12 @@
       "type": "string",
       "default": "",
       "description": "Comma-seperated list of namespaces (e.g. 'core') for which commands will not be shown. (useful for performance reasons)"
+    },
+    "maxResults": {
+      "type": "integer",
+      "default": 10,
+      "minimum": 1,
+      "description": "Number of items to appears on select-list"
     }
   }
 }
